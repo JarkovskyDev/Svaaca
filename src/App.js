@@ -1,8 +1,13 @@
+import About from "./components/About";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-        <h5>HELLO WORLD</h5>
+        <Navbar/>
+        <Hero/>
+        <About/>
     </div>
   );
 }
