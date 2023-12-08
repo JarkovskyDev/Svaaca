@@ -18,27 +18,27 @@ const Navbar = () => {
         <ul className='hidden text-xl md:flex'>
             <li>
                 <Link to='about' smooth={true} duration={500}>
-                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#390d02a9]'>O nás</p>
+                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#80c5bb]'>O mně</p>
                 </Link>
             </li>
             <li>
-                <Link to='dispute' smooth={true} duration={500} offset={-120}>
-                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#390d02a9]'>Řešení sporů</p>
+                <Link to='sweet' smooth={true} duration={500} offset={-120}>
+                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#80c5bb]'>Sladké</p>
                 </Link>
             </li> 
             <li>
-                <Link to='supervision' smooth={true} duration={500} offset={-120}>
-                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#390d02a9]'>Stavební dozor</p>
+                <Link to='bakery' smooth={true} duration={500} offset={-120}>
+                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#80c5bb]'>Pečivo</p>
                 </Link>
             </li>
             <li>
                 <Link to='office' smooth={true} duration={500} offset={-120}>
-                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#390d02a9]'>Úřady</p>
+                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#80c5bb]'>Úřady</p>
                 </Link>
             </li>
             <li>
                 <Link to='contacts' smooth={true} duration={500}>
-                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#390d02a9]'>Kontakt</p>
+                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#80c5bb]'>Kontakt</p>
                 </Link>
             </li>
         </ul>
@@ -50,17 +50,17 @@ const Navbar = () => {
         <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#ffffff] flex flex-col justify-center items-center"}>
             <li className='py-6 text-4xl'>
                 <Link onClick={handleClick} to='hero-res' smooth={true} duration={500} offset={-100}>
-                    O nás
+                    O mně
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='home-res' smooth={true} duration={500} offset={-80}>
-                    Řešení sporů
+                <Link onClick={handleClick} to='sweet-res' smooth={true} duration={500} offset={-80}>
+                    Sladké
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='supervision-res' smooth={true} duration={500} offset={-75}>
-                    Stavební dozor
+                <Link onClick={handleClick} to='bakery-res' smooth={true} duration={500} offset={-75}>
+                    Pečivo
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
