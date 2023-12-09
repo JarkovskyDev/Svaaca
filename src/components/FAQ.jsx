@@ -3,18 +3,23 @@ import Accordion from './Accordion'
 
 const FAQ = () => {
   return (
-    <div className='w-full min-h-screen'>
+    <div name="FAQ" className='w-full min-h-screen flex items-center justify-center'>
+      <div className='max-w-[768px] m-auto'>
         <div>
             <Accordion 
-                title='Do you prefer Android or iOS?' 
-                answer='I like to use iOS products'/>
+                title='Mohu si u Vás objednat?' 
+                answer='Určitě! Zavolejte, a ráda pro Vás objednávku připravím'/>
             <Accordion 
-                title='Do you prefer CSS or Tailwins?' 
-                answer='I like to use Tailwind'/>
+                title='Rozvážíte objednávky?' 
+                answer='Bohužel ne. Objednávy jsou vždy připraveny k vyzvednutí ve Svááče.'/>
             <Accordion 
-                title='Firebase or Supabase?' 
-                answer='I´m using Supabase'/>
+                title='Mohu si objednat dobroty, které nejsou v nabídce?' 
+                answer='Určitě! Ráda to pro Vás připravím!'/>
+            <Accordion 
+                title='Mohu si objednat větší množství na oslavu?' 
+                answer='Určitě! Ráda pro Vás připravím menu pro Vaši oslavu, svatbu, firemní akce či jiné společenské události. Ráda Vám i pomohu s výběrem a návrhem. '/>
         </div>
+      </div>
     </div>
   )
 }

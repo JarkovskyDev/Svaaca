@@ -22,18 +22,18 @@ const Navbar = () => {
                 </Link>
             </li>
             <li>
-                <Link to='sweet' smooth={true} duration={500} offset={-120}>
+                <Link to='sweet' smooth={true} duration={500} offset={0}>
                     <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#80c5bb]'>Sladké</p>
                 </Link>
             </li> 
             <li>
-                <Link to='bakery' smooth={true} duration={500} offset={-120}>
+                <Link to='bakery' smooth={true} duration={500} offset={0}>
                     <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#80c5bb]'>Pečivo</p>
                 </Link>
             </li>
             <li>
-                <Link to='office' smooth={true} duration={500} offset={-120}>
-                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#80c5bb]'>Úřady</p>
+                <Link to='FAQ' smooth={true} duration={500} offset={0}>
+                    <p className='border-b-2 border-transparent hover:transition duration-500 hover:delay-500 hover:border-[#80c5bb]'>Dotazy</p>
                 </Link>
             </li>
             <li>
@@ -64,8 +64,8 @@ const Navbar = () => {
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='office-res' smooth={true} duration={500} offset={-80}>
-                    Úřady
+                <Link onClick={handleClick} to='FAQ-res' smooth={true} duration={500} offset={-80}>
+                    Dotazy
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
