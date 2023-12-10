@@ -12,17 +12,22 @@ const Contacts = () => {
             <div>
                 <img src={Image} alt="/" className='object-cover h-[60vh] m-auto'/>
             </div>
-            <div>
-                <h3 className='font-bold'>Otevírací doba</h3>
-                <h1>pondělí – čtvrtek: 8:00 – 17:00<br />pátek: 8:00 – 15:00<br />sobota – neděle: Zavřeno</h1><br />
+            <div className='flex flex-col justify-between'>
+                <div>
+                  <h3 className='font-bold'>Otevírací doba</h3>
+                  <h1>pondělí – čtvrtek: 8:00 – 17:00<br />pátek: 8:00 – 15:00<br />sobota – neděle: Zavřeno</h1>
+                </div>
                 
-                <h3 className='font-bold'>Adresa</h3>
-                <h1>Komunardů 1154/38, <br /> 170 00  Praha 7 - Holešovice</h1><br />
+                <div>
+                  <h3 className='font-bold'>Adresa</h3>
+                  <h1>Komunardů 1154/38, <br /> 170 00  Praha 7 - Holešovice</h1>
+                </div>
 
-                <h3 className='font-bold'>Kontakt</h3>
-                <h1>Tel.: <a href="tel:+420605868225">605868225</a></h1>
-                <h1>Email: <a href="mailto:svaaca.holesovice@gmail.com">svaaca.holesovice@gmail.com</a></h1>
-                <br />
+                <div>
+                  <h3 className='font-bold'>Kontakt</h3>
+                  <h1>Tel.: <a href="tel:+420605868225">605868225</a></h1>
+                  <h1>Email: <a href="mailto:svaaca.holesovice@gmail.com">svaaca.holesovice@gmail.com</a></h1>
+                </div>
 
                 <div className='flex flex-row gap-2'>
                   <a href="https://www.facebook.com/profile.php?id=100093479255893" target="_blank" rel="noopener noreferrer"><FaFacebook size={"2rem"}/></a>

@@ -4,8 +4,8 @@ import Accordion from './Accordion'
 const FAQ = () => {
   return (
     <div name="FAQ" className='w-full min-h-screen flex items-center justify-center'>
-      <div className='max-w-[768px] m-auto'>
-        <div>
+      <div className='max-w-[768px] m-auto border rounded-lg border-[#80c5bb]'>
+        <div className='p-4'>
             <Accordion 
                 title='Mohu si u Vás objednat?' 
                 answer='Určitě! Zavolejte, a ráda pro Vás objednávku připravím'/>
