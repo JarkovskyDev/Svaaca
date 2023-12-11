@@ -64,7 +64,7 @@ const Navbar = () => {
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='FAQ-res' smooth={true} duration={500} offset={-80}>
+                <Link onClick={handleClick} to='FAQ' smooth={true} duration={500} offset={-80}>
                     Dotazy
                 </Link>
             </li>
