@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 const Hero = () => {
   return (
-    <div className='w-full min-h-screen flex items-center justify-center bg-cover bg-center' style={{ backgroundImage: `url(${image_bg})` }}>
+    <div className='w-full min-h-screen flex items-center justify-center bg-cover bg-center hidden lg:flex' style={{ backgroundImage: `url(${image_bg})` }}>
       <Link to='about' smooth={true} duration={500}>
         <IoIosArrowDropdown size={75} color='white' className='cursor-pointer absolute bottom-5 hover:scale-110 duration-500'/>
       </Link>

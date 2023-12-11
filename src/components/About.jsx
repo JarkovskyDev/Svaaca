@@ -4,7 +4,7 @@ import Person_image from '../assets/About_img.webp'
 const About = () => {
   return (
     <div name="about" className='w-full min-h-screen flex items-center justify-center'>
-      <div className='max-w-[1400px] m-auto grid lg:grid-cols-2 gap-3 sm:pt-0 sm:pb-0'>
+      <div className='max-w-[1400px] m-auto grid px-4 lg:grid-cols-2 gap-3 sm:pt-0 sm:pb-0'>
 
         <div>
           <img className='object-cover h-[80vh] m-auto' src={Person_image} alt="/"/>

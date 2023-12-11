@@ -3,7 +3,7 @@ import Accordion from './Accordion'
 
 const FAQ = () => {
   return (
-    <div name="FAQ" className='w-full min-h-screen flex items-center justify-center'>
+    <div name="FAQ" className='w-full min-h-screen flex items-center justify-center px-4'>
       <div className='max-w-[768px] m-auto border rounded-lg border-[#80c5bb]'>
         <div className='p-4'>
             <Accordion 
